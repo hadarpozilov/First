@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="text-align: center; background-color: aquamarine;">
+
+    <h1> form </h1>
+    <!-- טופס -->
+
+    <form action="hadar" method="post">
+        <div>
+            <label for="fname"> First name</label><br>
+            <input type="text" id="fname" name="fname" placeholder="first name"><br>
+        </div>
+        <label for="lname"> Last name</label><br>
+        <input type="text" id="lname" name="lname" placeholder="last name"><br>
+        </div>
+        <label for="gender"> gander</label><br>
+        boy <input type="radio" id="gender" name="gender" value="family">
+        girl <input type="radio" id="gender" name="gender" value="family"><br>
+        </div>
+        <!-- required- מחייב אותי למלא את הטופס לפני ששולחים -->
+        <!--  maxlegth- כמה מקסימום צריך כדי למלא שדה זה 
+                      min- מינימום כמה צריך-->
+        <div>
+            <label for="emali"> emali</label><br>
+            <input type="email" id="emali" placeholder="emali" required maxlength="10"><br>
+        </div>
+
+        <div>
+            <label for="phone">phone</label><br>
+            <input type="tel" id="phone" placeholder="your namber" maxlength="10" required ><br>
+        </div>
+
+        <div> <label for="date"> tour birthday</label><br>
+            <input type="date" id="date"> <br>
+        </div>
+
+        <div><label for="possword"> possword</label><br>
+            <input type="password" id="possword" placeholder="possword" br> <br>
+        </div>
+
+        <div> <label for="color"> Color</label><br>
+            <input type="color" id="color"><br>
+        </div>
+
+        <div>
+            <input type="reset" value="איפוס">
+            <input type="submit" value="שלח">
+        </div>
+        <select>
+            <option>hadar</option>
+            <option>odeya</option>
+            <option>efrat</option>
+        </select><br>
+        <!-- טקסט חופשי -->
+        <textarea name="hadar" id="hadar" cols="30" rows="10"></textarea>
+    </form>
+
+
+
+</body>
+
+</html>
